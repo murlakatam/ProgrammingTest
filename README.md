@@ -1,13 +1,13 @@
-# 2 Card Poker Challenge
+# 2 Card Poker Challenge (Programming -Test)
 
 This programming challenge is designed to see how you code, it should be able to 
 an hour and include input validation and unit tests to prove your code will work 
 as expected.
 
-The code can either be delivered via a public repo or a zip file.
+**The code was written in C# (.NET 4.7.1) and Visual Studio 2017
+Please download the repository, open solution in Visual Studio 2017 and build and execute main console app.**
+:sweat: :japanese_ogre: :sheep: :boat: :shipit:
 
-Please include a readme file with how to compile and run the project and any
-related notes.
 
 ## Requirements
 
@@ -17,11 +17,9 @@ related notes.
   2. 2-5 rounds.
   3. The dealer shuffles the deck at the start of each round.
   4. The dealer deals 2 cards to each player.
-  5. The dealer ranks each player’s hand according the poker hand ranking rules
-  6. At the end of each round, each player is assigned a score (0 – weakest to 
-     strongest x-1 (where x = number of players)).
-  7. The overall winner is determined once all rounds have been completed. The 
-     winner is the player with the highest score.
+  5. The dealer ranks each player’s hand according to the poker hand ranking rules
+  6. At the end of each round, each player is assigned a score (0 – weakest to strongest x-1 (where x = number of players)).
+  7. The overall winner is determined once all rounds have been completed. The winner is the player with the highest score.
 
 ### Poker Hand Ranks:
 
@@ -34,6 +32,7 @@ In order from strongest to weakest
   5. High Card (2 cards, different rank, suit and not in sequence. Highest card wins)
     * Individual cards are ranked A (highest), K, Q, J, 10, 9, 8, 7, 6, 5, 4, 3, 2 (lowest).
     * Suit order (strongest to weakest): Spades, Clubs, Hearts, Diamonds
+    * :red_circle: :heavy_exclamation_mark:  **important note here, since in original requirement there were no mentioning of priority of the above-mentioned rules, I assumed that suits are stronger than ranks. So 2 Spades is higher than Ace Diamonds**
 
 ### Objective:
 
